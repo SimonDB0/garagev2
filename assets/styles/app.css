@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+  .card-car{
+    position: absolute;
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+    background-position: center;
+    background-size: 100%;
+    background-size: 100%;
+    transition: 1s;
+  
+  }
+  .card p{
+    margin-left:20px;
+  }
+  
+  .card:hover{
+    background-position: center;
+    background-size: 1000%;
+    transition: 2s;
+  }
+  #galerie{
+    align-self: center;
+    
+  }
+  #galerie .row{
+   width: 50%;
+   height: 100%;
+  }
+  #galerie-p{
+    width: 50% !important;
+  }
+  .text-info{
+    font-size:22px;
+    margin-right: 20px;
+  }
+  .intro{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .intro li {
+    font-size: 35px;
+  } 
+  .galcontain{
+    display: flex;
+    justify-content: space-between;
+  }
+  .galimg{
+    width: 50%;
+    height: 100%;
+  }
+ 
+ 
+ 
